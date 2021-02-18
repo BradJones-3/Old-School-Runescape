@@ -1,45 +1,65 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Old School Runescape
+# Table of Contents
+1. Introduction
+2. UX
+* Ideal User Demographic
+* User Stories
+* Development Planes
+* Design
+3. Features
+* Design Features
+* Existing Features
+* Features to Implement in the future
+4. Issues and Bugs
+5. Technologies Used
+* Main Languages Used
+* Additional Languages Used
+* Frameworks, Libraries & Programs Used
+6. Testing
+* Testing.md
+7. Deployment
+* Deploying on GitHub Pages
+* Forking the Repository
+* Creating a Clone
+8. Credits
+* Content
+* Media
+* Code
+9. Acknowledgements
 
-Welcome USER_NAME,
+# Introduction
+This website was designed for the company Jagex for the game Old School Runescape. The focus of this site is to create an online presence allowing new players, present players 
+and any returning players to find out what is happening in game and to find any relavant information about the game.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Jagex Limited is a British video game developer and publisher based at the Cambridge Science Park in Cambridge, England. It is best known for RuneScape 
+and Old School RuneScape, collectively known as the world's largest free-to-play massively multiplayer online role-playing games. Jagex has one of the longest running 
+MMORPG games which has now been running for 20 years. The purpose for this website is to promote Jagex's game to a new audience as well as keeping the present players up to date.
 
-## Gitpod Reminders
+This is the first of four Milestone Projects for the developer that they must complete during their Full Stack Web Development Program at the Code institute.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The main requirments was to create a stable and static website with a minimum of three pages using primarily HTML5 and CSS3.
 
-`python3 -m http.server`
+# UX
 
-A blue button should appear to click: *Make Public*,
+## Ideal User Demographic
 
-Another blue button should appear to click: *Open Browser*.
+**The ideal user of this website is:**
+* New players
+* Current players
+* Returning players
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## User Stories
+**New Players**
+1. As a new player, I want to easily navigate my way around the website and find the relavant content.
+2. As a new player, I want to learn about the company's history in game development.
+3. As a new player, I want to be able to easily go to any of the games social media pages to keep up with any news or updates.
+4. As a new player, I want to be able to watch any videos to see what gameplay is like.
 
-A blue button should appear to click: *Make Public*,
+**Current Players**
+1. As a current player, I want to be able to find the social links to find out about any new updates.
+2. As a current player, I want to find out about any new upcoming releases.
+3. As a current player, I want to find any artwork from past and future updates.
 
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+**Returning Players**
+1. As a returning player, I want to be navigate information about updates I have missed.
+2. As a returning player, I want to be able to go to any social links to find relavant information.
