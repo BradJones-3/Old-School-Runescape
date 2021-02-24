@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500&family=Roboto:wght@300;500&display=swap');
+
+body {
+    margin: 25px;
+    font-family: 'Roboto';
+    background: url(../images/osrs.jpg) no-repeat center center fixed;
+    color: #ffffff;
+    background-color: rgba(20, 20, 20, .6);
+    height: 100%;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+}
+/*-------------------Logo---------------------*/
+#logo {
+    float: left;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+#logo #navbar{
+    line-height: 100px;
+}
+/*-------------------Nav Bar---------------------*/
+#navbar {
+    font-size: 150%;
+    list-style-type: none;
+    letter-spacing: 2px;
+    float: right;
+}
+
+#navbar li {
+    float: left;
+    margin-right: 10px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #8B0000;
+}
+
+#navbar a:hover {
+    color: #FF8C00;
+}
+
+.active {
+    border-bottom: 3px solid #8B0000;
+}
+
+/*-------------------Content Update---------------------*/
+
+#update {
+    color: #FF8C00;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 20px;
+    background: rgba(20, 20, 20, .8);
+}
+
+#update-heading {
+    text-align: center;
+    font-size: 180%;
+}
+
+#update-heading p {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.birthday {
+    color: #FF8C00;
+    background-color: rgba(20, 20, 20, .8);
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.birthday-image {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-warning {
+    background-color: #FF8C00;
+    color: #8B0000;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.btn-warning:hover {
+    background-color: #8B0000;
+    color: #FF8C00;
+}
+
+/*-------------------Video---------------------*/
+.video-container {
+    margin: 0 auto;
+    position: relative;
+}
+
+.video-container iframe {
+    border: 2px solid black;
+}
+
+/*-------------------Artwork---------------------*/
+
+.intro {
+    color: #FF8C00;
+    background-color: rgba(20, 20, 20, .8);
+    text-align: center;
+    line-height: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.intro-heading {
+    text-align: center;
+    font-size: 180%;
+}
+
+#artwork {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    margin: 50px 50px 0;
+}
+
+#artwork img {
+    width: 84%;
+    overflow: hidden;
+    float: left;
+    padding-bottom: 10px;
+}
+
+/*-------------------Footer/Socials---------------------*/
+
+footer {
+    height: 20px;
+}
+
+.socials {
+    text-align: center;
+    background-color: rgba(20, 20, 20, .5);
+    min-height: 100%;
+}
+
+.socials li {
+    display: inline;
+}
+
+.socials i {
+    font-size: 200%;
+    color: #FF8C00;
+    text-align: center;
+    padding: 5%;
+    margin: 2%;
+}
+
+.socials i:hover {
+    color: #8B0000;
+}
+
+/*-------------------Icons---------------------*/
+.fa {
+    font-size: 30px;
+}
+
+/*-------------------Responsive Widths---------------------*/
