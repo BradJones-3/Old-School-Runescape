@@ -1,49 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&family=Roboto:wght@300;500;600;700&display=swap');
 
 body {
-    margin: 25px;
-    font-family: 'Roboto';
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
     background: url(../images/osrs.jpg) no-repeat center center fixed;
+    background-size: cover;
     color: #ffffff;
     background-color: rgba(20, 20, 20, .6);
-    height: 100%;
-    box-sizing: border-box;
-    padding-bottom: 80px;
+    width: 100%;
 }
+
+h1, h2, h3, h4, h5 {
+    background-color: rgba(20, 20, 20, .6);
+}
+
 /*-------------------Logo---------------------*/
-#logo {
-    float: left;
-    border-radius: 50%;
-    margin-left: 25px;
-}
 
 #logo #navbar{
     line-height: 100px;
 }
+
 /*-------------------Nav Bar---------------------*/
-#navbar {
-    font-size: 150%;
-    list-style-type: none;
-    letter-spacing: 2px;
-    float: right;
+
+.navbar {
+    background-color: rgba(0, 0, 0, .3);
+    position: relative;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
-#navbar li {
-    float: left;
-    margin-right: 10px;
+.navbar-nav a {
+  color: rgb(252, 122, 0);
+  padding-bottom: 0;
+  text-transform: uppercase;
 }
 
-#navbar a {
-    text-decoration: none;
-    color: #8B0000;
-}
-
-#navbar a:hover {
-    color: #FF8C00;
+.navbar-nav a:hover {
+  color: rgb(252, 17, 0);
 }
 
 .active {
-    border-bottom: 3px solid #8B0000;
+  border-bottom: 2px solid rgb(252, 122, 0);
 }
 
 /*-------------------Content Update---------------------*/
@@ -51,49 +48,44 @@ body {
 #update {
     color: #FF8C00;
     text-align: center;
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
     line-height: 20px;
-    background: rgba(20, 20, 20, .8);
+    padding: 20px;
 }
 
 #update-heading {
-    text-align: center;
-    font-size: 180%;
-}
-
-#update-heading p {
+    background-color: rgba(20, 20, 20, .6);
     font-size: 2rem;
     letter-spacing: 1px;
+    text-align: center;
+}
+
+#update-heading, p {
+    background-color: rgba(20, 20, 20, .6);
+}
+
+.alert {
+    background-color: rgb(20, 20, 20);
+    color: #8B0000;
+    font-size: large;
 }
 
 .birthday {
     color: #FF8C00;
-    background-color: rgba(20, 20, 20, .8);
     text-align: center;
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
-}
-
-.birthday-image {
-    display: flex;
-    justify-content: center;
-}
-
-.btn-warning {
-    background-color: #FF8C00;
-    color: #8B0000;
-    text-align: center;
     padding: 20px;
-    margin: 20px;
 }
 
-.btn-warning:hover {
-    background-color: #8B0000;
-    color: #FF8C00;
+.birthday img {
+    width: 100%;
+    margin-top: 25px;
 }
 
 /*-------------------Video---------------------*/
+
 .video-container {
     margin: 0 auto;
     position: relative;
@@ -103,59 +95,122 @@ body {
     border: 2px solid black;
 }
 
-/*-------------------Artwork---------------------*/
+/*-------------------Content Update---------------------*/
 
-.intro {
+.game {
     color: #FF8C00;
-    background-color: rgba(20, 20, 20, .8);
     text-align: center;
-    line-height: 20px;
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
 }
 
-.intro-heading {
+.game-heading {
+    color: #FF8C00;
     text-align: center;
-    font-size: 180%;
+    margin: 0 auto;
 }
 
-#artwork {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-    margin: 50px 50px 0;
+.about {
+    color: #FF8C00;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
 }
 
-#artwork img {
-    width: 84%;
-    overflow: hidden;
-    float: left;
-    padding-bottom: 10px;
+.about-heading {
+    color: #FF8C00;
+    text-align: center;
+    margin: 0 auto;
 }
+
+.quests {
+    color: #FF8C00;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.quests-heading {
+    color: #FF8C00;
+    text-align: center;
+    margin: 0 auto;
+}
+/*-------------------Useful Links---------------------*/
+
+.streamers {
+    color: #FF8C00;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.streamers-heading {
+    color: #FF8C00;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.streamers-heading, a {
+    text-transform: uppercase;
+}
+
+.wiki {
+    color: #FF8C00;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wiki-heading {
+    color: #FF8C00;
+    text-align: center;
+}
+
+.clients {
+    color: #FF8C00;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.client-links {
+    background-color: rgba(20, 20, 20, .6);
+    text-align: center;
+    margin-left: 10px;
+}
+
+.client-links, ul {
+    text-align: center;
+    background-color: rgba(20, 20, 20, .6);
+}
+
 
 /*-------------------Footer/Socials---------------------*/
 
 footer {
-    height: 20px;
+  background-color: rgba(20, 20, 20, .6);
+  color: #FF8C00;
+  min-height: 120px;
+  margin: 0;
 }
 
 .socials {
     text-align: center;
-    background-color: rgba(20, 20, 20, .5);
+    background-color: rgba(20, 20, 20, .6);
     min-height: 100%;
+    min-width: 100%;
+    padding: 20px;
+    margin-right: 25px;
 }
 
-.socials li {
-    display: inline;
-}
 
 .socials i {
-    font-size: 200%;
     color: #FF8C00;
     text-align: center;
-    padding: 5%;
-    margin: 2%;
+    font-size: 200%;
 }
 
 .socials i:hover {
@@ -165,6 +220,16 @@ footer {
 /*-------------------Icons---------------------*/
 .fa {
     font-size: 30px;
+}
+
+.list-inline-item {
+    font-size: larger;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.list-inline-item, img {
+    margin-left: 25px;
 }
 
 /*-------------------Responsive Widths---------------------*/
