@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .alert {
+    font-family: 'Lato', sans-serif;
     background-color: rgb(20, 20, 20);
     color: #8B0000;
     font-size: large;
@@ -82,6 +83,7 @@ h1, h2, h3, h4, h5 {
 .birthday img {
     width: 100%;
     margin-top: 25px;
+    margin-left: 0;
 }
 
 /*-------------------Video---------------------*/
@@ -151,8 +153,15 @@ h1, h2, h3, h4, h5 {
     margin: 0 auto;
 }
 
-.streamers-heading, a {
-    text-transform: uppercase;
+.streamers-heading > a {
+    margin: 0 auto;
+    display: block;
+}
+
+.streamers-heading img {
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 0;
 }
 
 .wiki {
@@ -229,7 +238,17 @@ footer {
 }
 
 .list-inline-item, img {
-    margin-left: 25px;
+    margin-left: 0;
 }
 
 /*-------------------Responsive Widths---------------------*/
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    img {
+        align-items: center;
+    }
+}
