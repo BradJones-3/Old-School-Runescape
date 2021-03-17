@@ -196,6 +196,15 @@ h1, h2, h3, h4, h5 {
     background-color: rgba(20, 20, 20, .6);
 }
 
+.mobile-link i {
+    color: #8B0000;
+    text-align: center;
+    font-size: 200%;
+}
+
+.mobile-link i:hover {
+    color: #FF8C00;
+}
 
 /*-------------------Footer/Socials---------------------*/
 
@@ -227,6 +236,7 @@ footer {
 }
 
 /*-------------------Icons---------------------*/
+
 .fa {
     font-size: 30px;
 }
@@ -244,11 +254,17 @@ footer {
 /*-------------------Responsive Widths---------------------*/
 
 @media only screen and (max-width: 768px) {
-    body {
-        width: 100%;
-    }
-
     img {
         align-items: center;
+    }
+
+    .desktop-link {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .mobile-link {
+        display: none;
     }
 }
