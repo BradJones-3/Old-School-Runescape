@@ -49,6 +49,7 @@ The main requirements was to create a stable and static website with a minimum o
 * Returning players
 
 ## User Stories
+
 **New Players**
 1. As a new player, I want to easily navigate my way around the website and find the relavant content.
 2. As a new player, I want to learn about the games history.
@@ -74,28 +75,34 @@ the website required and to answer the user stories, listed above.
 The website will be broken down into three catergories focusing on the following audiences:
 
 **Roles**
+
 * Current Players of Old School RuneScape
 * New players looking to start playing
 * Returning players who have missed out on content
 * Fans of old MMORPG games looking for nostalgia
 
 **Demographic**
+
 * 13-35 year olds
 * Players who never got to play high level content when the game evolved into Runescape 3
 * MMORPG players
 
 **Pshychographics**
+
 * Personality & Traits
   * Fun-seeking
   * Socialable
+
 * Values:
   * Respectable
   * Determind to overcome barriers
+
 * Lifestyles:
   * Gamers
   * Intrested in MMORPG gaming catergory
 
 The website needs to let the user:
+
 * Get the information they need:
   * What the game is about
   * Any new content coming to the game
@@ -104,12 +111,14 @@ The website needs to let the user:
   * Be able to find information about any help they need in-game
 
 The website needs to let the Company:
+
 * Provide easy naviagtion throughout the website to allow the users to find:
     * Any content new or old they wish to know more about
     * What exactly the game is
 * Provide an easily obtainable links to any clients so that they can use to play the game.
 
 ## Scope
+
 A scope was worked out in order to clearly identify what was needed to be done in order to work all the features that was stated
 in the stratergy into the website. This was then broken into two catergories:
 
@@ -130,9 +139,10 @@ in the stratergy into the website. This was then broken into two catergories:
     * Be able to find the community on [Twitch](https://www.twitch.tv/directory/game/Old%20School%20RuneScape)
 
 ## Structure
+
 The information from the previous sections was organised in a tree structure in order to ensure that users could navigate through
 the site effiecntly and easily, with the following outcome:
-![Site Map](assets/reame-images/Site-map.jpeg)
+![Site Map](assets/readme-images/Site-map.jpeg)
 
 ## Skeleton
 
@@ -169,52 +179,73 @@ Each image has alternative text so that in an event of the element not being abl
 ## Features
 
 ### Design Features
+
 Each page of the website has a consistent navigational system:
+
 * The **header** contains a **logo** placed in the upper left hand corner that allows the users to return to the homepage when clicked and also the **navigation bar** in the top right of the page.
+
 * The **footer** contains each of the companies social media pages and is indicated with the appropriate icon to each of the accounts.
 
 ### Homepage
+
 The homepage has a consistent layout on all devices with the content placed in the middle of the page, to allow easy and fast access to the information the customer may require upon their visit.
+
 * Alert - The alert is occupying 75% of the webpage to keep the page flowing order consistent with the content below.
+
 * Video and Birthday Image - Both of these elements occupy 75% of the page to keep inline with the layout on the page the video will autoplay when visiting the homepage to catch the users attention on 
 the newest piece of content, and the birthday image is placed underneath with some of the games most recognisable NPC's and with a short explanation above the image to give the players a small explanation
 of what is happening in game at the moment.
 
 ### Osrs Page
+
 The OSRS page is a page dedicated to give people visiting the website information about the game and is also layed out the same as the **Homepage** to keep the wesbite consistent.
 * Video - Like the homepage we are trying to get the users attention straight away so again the **Video** takes up 75% of the page again and is set to autoplay so the users are encouraged to unmute and 
 to watch the video to learn what the game is from the people who create the game and push new content each week.
+
 * Small Paragraphs - The paragraphs follow the suit of the whole webiste with the width set to 75%. Each will give details about what the game has to offer and is known for. They will explain what options 
 the players have to play whether that be Free-to-Play or a Paid Membership. The other will give the players an insight on the quests they will encounter upon entering the game.
 
 ### Useful Links Page
+
 This page of the website is to allow any person who visits the site to go and explore the wide range of content avaliable to them, it will contain links to a number of other sites that could 
 help get the player use to the game and also to feel part of the **Runescape** community.
+
 * Twitch - This will feature a image that keeps inline with the websites theme and sit underneath the section which explains what they can find by following the link. The paragraph will take up 75% 
 of the page while the image will not so the image doesn't become disorted and the pixels become stretched. The link used for the image will take the users to the **Old School Runescape** directory 
 on the **Twitch** webiste.
+
 * Wiki - This is for any players of the game to use the player ran **Wiki** to assist them in their needs whilst in-game, again there will be an image of the wiki's logo underneath the section to allow 
 easy access to the webiste and will also feature a breif explanation of also how to access the site whilst in-game. Again following with the layout of the **Twitch** layout, the paragraph will 
 take up 75% of the page with the image underneath keeping the size of its original size to keep the image from becoming strecthed and breaking the theme of the website.
+
 * Client Links - This section will allow the players visiting the website to be able to choose which client they would like to play the game on with the risks of playing on the third-party 
 client clearly stated. The vanilla client image when clicked with start a download with the **Steam** client taking the user to the **Steam** store page for the game to be able to start the download and finally 
 the **RuneLite** client will take the players to the homepage for the client. They will be layed out like the footer in the inline list style that when viewed on mobile devices will display the **Steam** link 
-underneath the **Vanilla** and **RuneLite links**.
+underneath the **Vanilla** and **RuneLite links**. This will all be avaliable when viewing the website on a desktop but the developer has also put in links to the tablet and mobile appropriate **app stores** that will 
+appear when viewing on a the appropriate devices.
+
 
 ### Existing Features
 
 * **Header Logo** - This appears on every page of the website for brand recognition, always located in the top left of the page and will allows visiters of the website to click on the logo to be returned to the homepage as they would 
 expect.
+
 * **Header Nav bar** - This like the logo is always located at the top right corner of each page which allows easy access to each of the pages the website has.
+
 * **Footer Social Icons** - The footer will be located at the bottom of each page and will allow the webiste users to be able to easily navigate to each of the social handles that they wish to, 
 this will allow for easy access to knowledge that they wish to get and to also keep up with any news surrounding the game.
+
 * **Videos** - The videos used in the website are gathered from Old School Runescape's Youtube page:
   * [Soul Wars](https://youtu.be/9f8On5Ml2Xg)
   * [What is OSRS](https://www.youtube.com/watch?v=H1GdN4MJC9E)
+
 * **External Links** - The external links are used for ease of access to information that the visitors of the webiste may require they are used in the footer for the social accounts of Runescape 
 and also used in the **Useful Links** section of the website to take the users to the page they require.
+
 * **Downloadable link** For the **Vanilla Client** created by **Jagex** when clicked on ny the player that wishes to use the client they will be met by the link starting the download in the browser.
 
+* **Hidden Content** For people browsing the website on devices smaller than 1024px the website will hide the links to the clients and instead only show the links avaliable for the device they are on. 
+Allowing for ease of access and a less crowded page on smaller devices.
 
 ### Future Features 
 
@@ -263,3 +294,37 @@ and also used in the **Useful Links** section of the website to take the users t
   * Balsamiq was used to create the wireframes during the designing stages of the project.
 * [Am I Responsive](http://ami.responsivedesign.is/# "Link to Am I Responsive")
   * Am I Responsive was used to see the responsive design throughout the process.
+
+## Testing
+
+* Testing.md
+
+## Deployment
+
+* Deploying on GitHub Pages
+
+* Forking the Repository
+
+* Creating a Clone
+
+## Credits
+
+### Content
+
+* The text used in the homepage was sourced from [Old School Runescape Wiki](https://oldschool.runescape.wiki/w/Soul_Wars "Link to wiki"), [News Letter](https://secure.runescape.com/m=news/8th-birthday-event-and-lms-changes?oldschool=1 "Link to Runescape").
+* The text used on the OSRS page is sourced from [Old School Runescape Wiki](https://en.wikipedia.org/wiki/Old_School_RuneScape "Link to Wikipedia"), [Steam](https://store.steampowered.com/app/1343370/Old_School_RuneScape/ "Link to Steam Store")
+
+* Media
+
+* All videos was sourced from [Old School Runescape's Youtube Channel](https://www.youtube.com/channel/UC0j1MpbiTFHYrUjOTwifW_w "Link to OSRS Youtube")
+* The image used on the homepage was sourced from [Runescape's Birthday Event](https://secure.runescape.com/m=news/8th-birthday-event-and-lms-changes?oldschool=1 "Link to Runescape").
+* Images used on the Useful Links page was sourced from [RuneLite](https://runelite.net/ "Link to RuneLite Homepage") [Steam](https://store.steampowered.com/app/1343370/Old_School_RuneScape/ "Link to Steam Store").
+
+* Code
+The developer has used multiple sites that would better help them understand the code used and was modified to fit the websites theme and to keep the order consistent. The sites that was used are as following:
+* [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow Homepage")
+* [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/ "Link to Bootstrap Homepage")
+* [Google Fonts]("https://fonts.google.com/ Link to Google Fonts Homepage)
+* [Font Awesome](https://fontawesome.com/ "Link to Font Awsome Homepage)
+
+## Acknowledgements
