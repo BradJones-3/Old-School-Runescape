@@ -59,7 +59,7 @@ The main requirements was to create a stable and static website with a minimum o
 **Current Players**
 1. As a current player, I want to be able to find the social links to keep up with any news.
 2. As a current player, I want to find out about any new upcoming releases.
-3. As a current player, I want to find any videos/pictures from past and future updates.
+3. As a current player, I want to find any information to help me return to the game.
 
 **Returning Players**
 1. As a returning player, I want to navigate to information about updates I have missed.
@@ -146,11 +146,19 @@ the site effiecntly and easily, with the following outcome:
 
 ## Skeleton
 
+The developer used [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq Homepage") to create the wireframes for the website.
+
 ### Home Page
+
+![Homepage Wireframe](assets/readme-images/Homepage-Wireframe.jpg)
 
 ### Osrs Page
 
+![Osrs Wireframe](assets/readme-images/Osrs-Page.png)
+
 ### Useful Links Page
+
+![Useful Links Wireframe](assets/readme-images/Useful-Links.png)
 
 ## Design
 
@@ -328,3 +336,4 @@ The developer has used multiple sites that would better help them understand the
 * [Font Awesome](https://fontawesome.com/ "Link to Font Awsome Homepage)
 
 ## Acknowledgements
+* I would like to thank my family and friends for giving me their honest opions and suggestions during each stage of building this website.
