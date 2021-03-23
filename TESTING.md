@@ -5,9 +5,9 @@
 2. [Manual Testing](#Manual-Testing)
 3. [Automated Testing](#Automated-Testing)
    * [Code Validation](#Code-Validation)
-   * [Broswer Validation](#broswer-validation)
-   * []
-4. 
+   * [Browser Validation](#broswer-validation)
+   * [Lighthouse Audit](#Lighthouse-Audit)
+4. [User Testing](#User-Testing)
 
 
 ## Testing User Stories
@@ -62,7 +62,7 @@
 The developer manually tested the following effects to ensure they are displayed and functioning properly.
 
 * Hovering on the navigation bar will trigger the **'hover'** effect and also to confirm the link the users are on.
-![Nav bar hover effect](assets/testing-files/nav-bar.gif)
+![Nav bar hover effect](assets/testing-files/navbar-footer-gif/nav-bar.gif)
 
 * Hovering over Social Media links will trigger the **'hover'** effect and once clicked will open a new tab.
 
@@ -151,3 +151,44 @@ the appropriate webiste when clicked.
 ### Responsiveness of the [Useful Links Page](useful-links.html)
 
 ![Useful Links Responsiveness](assets/testing-files/useful-links/Responsiveness-Useful-Links.gif)
+
+## Automated Testing
+
+### Code Validation
+
+The developer used the website [W3C Markup Validation Service](https://validator.w3.org/nu/) to review each page.
+
+
+Here are the results from the tests:
+
+* Homepage: ![Homepage HTML Review](assets/testing-files/automated-testing/Index-Review.jpg)
+
+* Osrs Page: ![Osrs HTML Review](assets/testing-files/automated-testing/Osrs-Review.jpg)
+
+* Useful Links Page: ![Useful Links HTML Review](assets/testing-files/automated-testing/Useful-Links-Review.jpg)
+
+The developer used the website [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate their CSS.
+
+* Here are the results from the test:![Style Sheet CSS Validation Results](assets/testing-files/automated-testing/CSS-Review.jpg)
+
+
+### Browser Validation
+
+* Chrome - [Chrome Image](assets/testing-files/automated-testing/Chrome-Test.jpg)
+* Safari - [Safari Image](assets/testing-files/automated-testing/Safari-Test.jpg)
+* Firefox - [Firefox Image](assets/testing-files/automated-testing/Firefox-Test.jpg)
+* Opera - [Opera Image](assets/testing-files/automated-testing/Opera-Test.jpg)
+* Edge - [Edge Image](assets/testing-files/automated-testing/Edge-Test.jpg)
+
+### Lighthouse Audit
+
+Click [Here](assets/testing-files/automated-testing/Lighthouse-Report.pdf) for the report on the Lighthouse Audit.
+
+
+### User Testing
+
+Friends and family was asked to review and honestly give feedback on the website and documentation and also to point out any bugs and/or user difficulties. Their feedback 
+was taken and changes were made to the following elements on the website:
+* Made the width when browsing on tablet or mobile devices 100% to allow more ease when reading.
+* Changed the colour of the app store links to red to make them stand out from the text.
+
