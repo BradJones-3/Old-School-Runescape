@@ -1,31 +1,28 @@
 # Old School Runescape
 # Table of Contents
-1. Introduction
-2. UX
-* Ideal User Demographic
-* User Stories
-* Development Planes
-* Design
-3. Features
-* Design Features
-* Existing Features
-* Features to Implement in the future
-4. Issues and Bugs
-5. Technologies Used
-* Main Languages Used
-* Additional Languages Used
-* Frameworks, Libraries & Programs Used
-6. Testing
-* Testing.md
-7. Deployment
-* Deploying on GitHub Pages
-* Forking the Repository
-* Creating a Clone
-8. Credits
-* Content
-* Media
-* Code
-9. Acknowledgements
+1. [Introduction](#Introduction)
+2. [UX](#UX)
+   * [Ideal User Demographic](#Ideal-User-Demographic)
+   *  [User Stories](#User-Stories)
+   *  [Development Planes](#Development-Planes)
+   * [Design](#Design)
+3. [Features](#Features)
+   * [Design Features](#Design-Features)
+   * [Existing Features](#Existing-Features)
+   * [Features to Implement in the future](#Features-to-Implement-in-the-future)
+4. [Issues and Bugs](#Issues-and-Bugs)
+5. [Technologies Used](#Technologies-Used)
+   * [Main Languages Used](Main-Languages-Used)
+   * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+6. [Testing](#Testing)
+   * [Testing.md](TESTING.md)
+7. [Deployment](#Deployment)
+   * [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
+8. [Credits](#Credits)
+   * [Content](#Content)
+   * [Media](#Media)
+   * [Code](#Code)
+9. [Acknowledgements](#Acknowledgements)
 
 # Introduction
 This website was designed for the company Jagex for the game Old School Runescape. The focus of this site is to create an online presence allowing new players, present players 
@@ -311,9 +308,15 @@ Allowing for ease of access and a less crowded page on smaller devices.
 
 * Deploying on GitHub Pages
 
-* Forking the Repository
+In order for this page to be deployed to GitHub Pages from its Github Repository, the following steps was taken:
 
-* Creating a Clone
+1. Log into GitHub or create an acount.
+2. Locate the GitHub Repository.
+3. On the top menu of the repository select the settings tab.
+4. Scroll down until you see the 'GitHub pages' section.
+5. Under the 'Source' section of 'GitHub Pages' click the box labbeled 'None' and then select 'Master Branch'.
+6. Upon clicking save the page will refresh meaning the website is now deployed.
+7. Scroll back down to the 'GitHub Pages' section and you will now see the live link directing you to the website.
 
 ## Credits
 
