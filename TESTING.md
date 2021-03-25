@@ -1,5 +1,5 @@
 # Old School Runescape - Testing
-[Main README.md File](/README.md)
+[Main README.md File](README.md)
 
 1. [Testing User Stories](#Testing-User-Stories)
 2. [Manual Testing](#Manual-Testing)
@@ -183,7 +183,6 @@ The developer used the website [W3C CSS Validation Service](https://jigsaw.w3.or
 ### Lighthouse Audit
 
 Click [Here](assets/testing-files/automated-testing/Lighthouse-Report.pdf) for the report on the Lighthouse Audit.
-
 
 ### User Testing
 
