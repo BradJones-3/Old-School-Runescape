@@ -254,6 +254,48 @@ footer {
 /*-------------------Responsive Widths---------------------*/
 
 @media only screen and (max-width: 768px) {
+    #update {
+        width: 100%;
+        padding: 0;
+    }
+
+    .birthday {
+        width: 100%;
+        padding: 0;
+    }
+
+    .game {
+        width: 100%;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .quests {
+        width: 100%;
+    }
+
+    .streamers {
+        width: 100%;
+        padding: 0;
+    }
+
+    .wiki {
+        width: 100%;
+        padding: 0;
+    }
+
+    .clients {
+        width: 100%;
+        padding: 0;
+    }
+
+    .client-links {
+        width: 100%;
+        padding: 0;
+    }
+
     img {
         align-items: center;
     }
